@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['LEFT', 'RIGHT', 'STOP', 'STRAIGHT', 'WORKERS']
+
+roboflow:
+  workspace: jses-workspace
+  project: senales_trafcio
+  version: 4
+  license: Private
+  url: https://app.roboflow.com/jses-workspace/senales_trafcio/4
