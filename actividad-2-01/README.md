@@ -1,4 +1,4 @@
-# actividad-2-01 — Transformaciones geométricas con OpenCV
+# actividad-2-01 — Geometric Transformations with OpenCV
 
 ## 1. Introduction
 
