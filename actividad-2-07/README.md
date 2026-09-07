@@ -13,7 +13,7 @@
 
 ## 3. Implementation
 
-&ensp;&ensp;`actividad_2_07.py` detects a 5×7 chessboard on every image in `calibration_images1/`, refines the corners with `cornerSubPix`, and runs `cv2.calibrateCamera` to get K and the distortion coefficients. It then undistorts the first image in the set with `getOptimalNewCameraMatrix` + `undistort`, saving both the original and undistorted frames.
+&ensp;&ensp;`actividad_2_07.py` detects a 5×7 chessboard on every image in `calibration_images/`, refines the corners with `cornerSubPix`, and runs `cv2.calibrateCamera` to get K and the distortion coefficients. It then undistorts the first image in the set with `getOptimalNewCameraMatrix` + `undistort`, saving both the original and undistorted frames.
 
 &ensp;&ensp;`calibration_images/` (50 images, 1280×720) is the set actually used by the script and the one the camera parameters are traceable to — it matches the naming pattern and output path (`calibration_images/`) that `capture_images.py` writes when saving frames from the Puzzlebot's ROS2 image topic (subscribed to `/video_source/raw`, key `s` to save each frame). It's a ROS2 capture node, not part of the calibration algorithm itself.
 
