@@ -26,7 +26,7 @@ objpoints = []
 imgpoints = []
 
 
-images = glob.glob("calibration_images1/*.jpg")
+images = glob.glob("calibration_images/*.jpg")
 print(f"\nSe encontraron {len(images)} imagenes\n")
 
 
